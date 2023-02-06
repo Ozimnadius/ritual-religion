@@ -1,0 +1,29 @@
+:root {
+  --font: Montserrat, sans-serif;
+  --font-size: 36px;
+  --font-weight: 700;
+  --line-height: 1.2;
+
+  --container-width: 100%;
+  --container-padding: 0 1rem;
+
+  --color-text: #FFFFFF;
+  --color-bg: #F5F5F5;
+  --color-link: #2372DB;
+  --color-link-hover: #4887db;
+
+  --transition: 0.4s;
+  @media (max-width: 1919.98px) {
+    --font-size: 32px;
+  }
+  @media (max-width: 1279.98px) {
+    --font-size: 26px;
+  }
+  @media (max-width: 1023.98px) {
+    --font-size: 32px;
+  }
+  @media (max-width: 767.98px) {
+    --font-size: 18px;
+    --container-padding: 0 10px;
+  }
+}
