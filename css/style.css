@@ -75,8 +75,8 @@ body {
 }
 
 .page {
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   min-height: 100%;
 }
 
